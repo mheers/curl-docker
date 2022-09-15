@@ -53,37 +53,14 @@ RUN ./configure \
     --enable-dnsshuffle \
     --enable-werror \
     \
-    --disable-cookies \
-    --disable-crypto-auth \
-    --disable-dict \
-    --disable-file \
-    --disable-ftp \
-    --disable-gopher \
-    --disable-imap \
-    --disable-ldap \
-    --disable-pop3 \
-    --disable-proxy \
-    --disable-rtmp \
-    --disable-rtsp \
-    --disable-scp \
-    --disable-sftp \
-    --disable-smtp \
-    --disable-telnet \
-    --disable-tftp \
     --disable-versioned-symbols \
     --disable-doh \
-    --disable-netrc \
-    --disable-mqtt \
     --disable-largefile \
     --without-gssapi \
     --without-libidn2 \
     --without-libpsl \
     --without-librtmp \
-    --without-libssh2 \
-    --without-nghttp2 \
     --without-ntlm-auth \
-    --without-brotli \
-    --without-zlib \
     --with-ssl
 
 # compile the curl
